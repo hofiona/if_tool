@@ -11,34 +11,11 @@ The methodology you will use for Assignment 2 includes the following tasks:
 
 Data Collection
 
-It is a subset of RCV1 data collection. It is only for IFN647 students who will be supervised by Prof. Yuefeng Li. Please do not release this data collection to others.
+It is a subset of RCV1 data collection.
 
 Data_Collection.zip file – It includes 50 Datasets (folders “Data_C101” to “Data_C150”) for 50 queries R101 to R150.
 
 “the50Queries.txt” file – It contains definitions for 50 queries (numbered from R101 to R150) for the 50 data collections, where each <top> element (<top>...</top>) defines a query (topic), including query number (<num>), title (<title>), description (<desc>) and narrative (<narr>). 
-
-Example of query R102 - “Convicts, repeat offenders” is defined as follows:
-
-<top>
-
-<num> Number: R102
-<title>Convicts, repeat offenders
-
-<desc> Description:
-Search for information pertaining to crimes committed by people who
-have been previously convicted and later released or paroled from
-prison.
-
-<narr> Narrative:
-Relevant documents are those which cite actual crimes committed by
-"repeat offenders" or ex-convicts.  Documents which only generally
-discuss the topic or efforts to prevent its occurrence with no
-specific cases cited are irrelevant.
-
-</top>
-
-“EvaluationBenchmark.zip” file – It includes relevance judgements (where file “dataset101.txt” is the benchmark for data collection “Data_C101”, etc.) for all documents used in the 50 data collections (datasets), where "1" in the third column of each .txt file indicates that the document (the second column) is relevant to the corresponding query (the first column); and “0” means the document is non-relevant.
-
 
 
 Assignment Specification 
